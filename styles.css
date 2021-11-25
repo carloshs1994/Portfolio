@@ -59,6 +59,7 @@ nav {
 
 main {
   display: grid;
+  gap: 120px;
 }
 
 .intro-text {
@@ -110,7 +111,6 @@ main {
   height: 50px;
   align-items: center;
   order: 1;
-  border: 5px solid rebeccapurple;
   padding: -0.01px;
   width: 327px;
 }
@@ -121,4 +121,36 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*starts Works section*/
+
+.works-section {
+  display: grid;
+  gap: 24px;
+  grid-template-rows: 211px 568px repeat(6, 386px);
+  justify-content: center;
+  width: 375px;
+  height: 3335px;
+  background-color: antiquewhite; /*Remember to remove this line*/
+}
+
+.title-works-section {
+  height: 107px;
+  width: 327px;
+  border-bottom: 1px solid black; /*Remember to remove this line*/
+}
+
+h2 {
+  font-family: Crete Round, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card {
+  border: 2px solid black; /*Remember to remove this line*/
 }
