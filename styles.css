@@ -7,22 +7,38 @@ header {
   display: flex;
   background: #3c3a39;
   color: #fff;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 48px;
   align-items: center;
   font-size: 18px;
-  width: 100%;
+  width: 376px;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  width: 160px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 68px;
+  justify-content: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
+  background-image: url(assets/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
   color: #fff;
-  height: 100vh;
+  height: 590px;
   justify-content: center;
-  width: 100%;
-  padding: 24px;
+  width: 376px;
+  align-items: center;
 }
 
 .intro-text {
@@ -30,6 +46,7 @@ main {
   flex-direction: column;
   height: 300px;
   justify-content: space-between;
+  order: 0;
 }
 
 .primary-text {
@@ -67,6 +84,7 @@ main {
   width: 327px;
   height: 50px;
   align-items: center;
+  order: 1;
 }
 
 .icon {
