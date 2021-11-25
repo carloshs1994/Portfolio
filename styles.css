@@ -19,6 +19,7 @@ header {
   text-decoration: none;
   width: 160px;
   text-align: center;
+  font-family: Roboto;
 }
 
 nav {
@@ -60,6 +61,7 @@ main {
   color: #ff6b00;
   width: 327px;
   margin: -0.01px;
+  font-family: Crete Round;
 }
 
 .supporting-text {
@@ -70,15 +72,21 @@ main {
   line-height: 32px;
   text-align: left;
   margin: -0.01px;
+  font-family: Roboto;
+}
+
+p {
+  margin: -0.01;
 }
 
 .Description-text {
-  width: 327px;
+  width: 330px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  font-family: Poppins;
 }
 
 .social-media {
