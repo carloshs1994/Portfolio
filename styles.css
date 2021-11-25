@@ -154,3 +154,44 @@ h2 {
 .card {
   border: 2px solid black; /*Remember to remove this line*/
 }
+
+.principal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feat-img-principal-card {
+  width: 327px;
+  height: 237px;
+  background-image: url(assets/ImgPlaceholder.png);
+}
+
+.description-principal-card {
+  width: 327px;
+  height: 307px;
+}
+
+h3 {
+  font-family: Crete Round;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: -0.01px;
+}
+
+.supporting-text-principal-card {
+  width: 327px;
+  height: 147px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
