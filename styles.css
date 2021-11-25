@@ -43,7 +43,7 @@ nav {
   justify-content: center;
 }
 
-main {
+.head-section {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
@@ -55,6 +55,10 @@ main {
   justify-content: center;
   width: 376px;
   align-items: center;
+}
+
+main {
+  display: grid;
 }
 
 .intro-text {
