@@ -170,6 +170,9 @@ h2 {
 .description-principal-card {
   width: 327px;
   height: 307px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h3 {
@@ -193,29 +196,78 @@ h3 {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  margin: -0.01px;
 }
 
 .tag-holder {
   height: 40px;
   width: 297px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.css-tag {
-  height: 40px;
+.css {
   width: 49px;
+  margin: -0.01px;
+  text-align: center;
 }
 
-.html-tag {
-  height: 40px;
+.html {
   width: 56px;
+  margin: -0.01px;
+  text-align: center;
 }
 
-.bootstrap-tag {
-  height: 40px;
+.bootstrap {
   width: 95px;
+  margin: -0.01px;
+  text-align: center;
 }
 
-.rubi-tag {
-  height: 40px;
+.rubi {
   width: 61px;
+  margin: -0.01px;
+  text-align: center;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #8993a4;
+}
+
+.see-project {
+  height: 48px;
+  width: 124px;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: none;
+}
+
+.see-project:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border-color: #f55800;
+}
+
+.see-project:focus {
+  background-color: #e05304;
+  color: #f4f1f0;
+  border: none;
+}
+
+.see-project:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
 }
