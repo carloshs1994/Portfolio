@@ -330,3 +330,25 @@ h4 {
   height: 48px;
   width: 327px;
 }
+
+/*Starts About Section*/
+
+.about-section {
+  width: 375px;
+  height: 1901px;
+  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  width: 375px;
+  height: 660px;
+  border: 2px solid #fff; /*Remember to remove this line*/
+}
+
+.skill {
+  width: 375px;
+  height: 1241px;
+  border: 2px solid #fff; /*Remember to remove this line*/
+}
