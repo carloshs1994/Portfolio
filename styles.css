@@ -346,7 +346,6 @@ h4 {
 .about {
   width: 375px;
   height: 660px;
-  border: 2px solid #fff; /*Remember to remove this line*/
   background-image: url(assets/Frame.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -357,6 +356,8 @@ h4 {
 }
 
 .about-title{
+  height: 79px;
+  width: 327px;
   font-family: Crete Round;
   font-size: 72px;
   font-style: normal;
@@ -369,7 +370,22 @@ h4 {
 }
 
 .about-description {
+  width: 327px;
+  height: 148px;
   color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-button-container {
+  width: 327px;
+  height: 48px;
+  display: flex;
 }
 
 .about-button {
