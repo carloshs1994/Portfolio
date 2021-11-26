@@ -204,7 +204,7 @@ h3 {
   width: 297px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .css {
@@ -237,11 +237,15 @@ h3 {
   align-items: center;
   height: 40px;
   border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+.main-button {
+  height: 48px;
+  width: 124px;
 }
 
 .see-project {
-  height: 48px;
-  width: 124px;
   background-color: #ff6b00;
   color: #fff;
   font-family: Inter;
@@ -257,7 +261,7 @@ h3 {
 .see-project:hover {
   background-color: #fff5e1;
   color: #f55800;
-  border-color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .see-project:focus {
@@ -270,4 +274,59 @@ h3 {
   background-color: #f4f1f0;
   color: #5b5957;
   border: none;
+}
+
+.second-card {
+  display: flex;
+  height: 386px;
+  width: 327px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(assets/Img-secundary-card.png);
+}
+
+.mask-group {
+  height: 248px;
+  width: 327px;
+  margin-bottom: 24px;
+}
+
+h4 {
+  font-family: Crete Round;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin: -0.01px;
+}
+
+.supporting-text-secondary-card {
+  width: 295px;
+  height: 87px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.secondary-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  color: #fff;
+}
+
+.secondary-button {
+  height: 48px;
+  width: 327px;
 }
