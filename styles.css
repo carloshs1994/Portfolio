@@ -132,7 +132,6 @@ main {
   justify-content: center;
   width: 375px;
   height: 3335px;
-  background-color: antiquewhite; /*Remember to remove this line*/
 }
 
 .title-works-section {
@@ -149,10 +148,6 @@ h2 {
   line-height: 52px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.card {
-  border: 2px solid black; /*Remember to remove this line*/
 }
 
 .principal-card {
@@ -288,10 +283,15 @@ h3 {
 .mask-group {
   height: 248px;
   width: 327px;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h4 {
+  width: 295px;
+  height: 81px;
   font-family: Crete Round;
   font-size: 32px;
   font-style: normal;
