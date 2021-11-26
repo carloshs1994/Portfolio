@@ -107,10 +107,6 @@ main {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-li.icon {
-  margin: 0.01px;;
-}
-
 .social-media {
   display: flex;
   justify-content: flex-start;
