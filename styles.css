@@ -195,3 +195,27 @@ h3 {
   text-align: left;
 }
 
+.tag-holder {
+  height: 40px;
+  width: 297px;
+}
+
+.css-tag {
+  height: 40px;
+  width: 49px;
+}
+
+.html-tag {
+  height: 40px;
+  width: 56px;
+}
+
+.bootstrap-tag {
+  height: 40px;
+  width: 95px;
+}
+
+.rubi-tag {
+  height: 40px;
+  width: 61px;
+}
