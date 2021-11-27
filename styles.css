@@ -330,7 +330,7 @@ h4 {
 
 .about-section {
   width: 375px;
-  height: 1901px;
+  height: 2050px;
   background: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -397,11 +397,13 @@ h4 {
 
 .white-vector {
   width: 327px;
-  height: 128px;
+  height: 50px;
   border-top: 1px solid #fff;
 }
 
 ul.skill-list-container {
+  padding: 0;
+  list-style-type: none;
   width: 327px;
   height: 1000px;
   display: flex;
@@ -418,27 +420,33 @@ li.slk {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  padding-inline-start: 12px;
+  padding-inline-start: 20px;
 }
 
-ul.skill-list-container li:nth-child(1) {
+ul.skill-list-container li.slk:nth-child(1) {
   list-style-image: url(assets/Rectangle55.png);
-  margin-left: 68px;
+  margin-left: 60px;
 }
 
-ul.skill-list-container li:nth-child(6) {
+ul.skill-list-container li.slk:nth-child(2) {
   list-style-image: url(assets/Square56.png);
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
-ul.skill-list-container li:nth-child(12) {
+ul.skill-list-container li.slk:nth-child(3) {
   list-style-image: url(assets/Circle57.png);
   margin-left: 95px;
+  padding-inline-start: 1px;
+}
+
+ul.skill-description-container {
+  padding: 20px 0px 0px 0px;
+  list-style-type: none;
 }
 
 .skill-description {
   list-style-type: none;
-  width: 288px;
+  list-style-image: none;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -447,4 +455,22 @@ ul.skill-list-container li:nth-child(12) {
   text-align: center;
   color: #fff;
   margin: 0.01px;
+  padding-bottom: 32px;
+}
+
+.size-language {
+  width: 120px;
+}
+
+.size-frameworks {
+  width: 140px;
+}
+
+.size-skills {
+  width: 90px;
+}
+
+.bigger-container-skills {
+  width: 100px;
+  text-align: center;
 }
