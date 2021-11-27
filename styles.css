@@ -402,7 +402,7 @@ h4 {
 }
 
 ul.skill-list-container {
-  padding: 0;
+  padding: 16px;
   list-style-type: none;
   width: 327px;
   height: 1000px;
@@ -410,7 +410,6 @@ ul.skill-list-container {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  padding: 16px;
 }
 
 li.slk {
@@ -440,7 +439,8 @@ ul.skill-list-container li.slk:nth-child(3) {
 }
 
 ul.skill-description-container {
-  padding: 20px 0px 0px 0px;
+  padding: 0px;
+  padding-top: 20px;
   list-style-type: none;
 }
 
