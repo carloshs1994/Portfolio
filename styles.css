@@ -439,7 +439,7 @@ ul.skill-list-container li.slk:nth-child(3) {
 }
 
 ul.skill-description-container {
-  padding: 0px;
+  padding: -0.001px;
   padding-top: 20px;
   list-style-type: none;
 }
