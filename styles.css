@@ -197,6 +197,10 @@ h3 {
   justify-content: flex-start;
 }
 
+ul.tag-holder {
+  padding-left: 0.001px;
+}
+
 .css {
   width: 49px;
   margin: -0.01px;
