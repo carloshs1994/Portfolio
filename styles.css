@@ -427,7 +427,6 @@ ul.skill-list-container li.slk:nth-child(1) {
   list-style-image: url(assets/Rectangle55.png);
   margin-left: 60px;
   padding-bottom: 10px;
-
 }
 
 ul.skill-list-container li.slk:nth-child(2) {
@@ -446,7 +445,7 @@ ul.skill-list-container li.slk:nth-child(3) {
 
 ul.skill-description-container {
   padding: -0.001px;
-  padding-left: 0px;
+  padding-left: 0.001px;
   padding-top: 20px;
   padding-bottom: 10px;
   list-style-type: none;
