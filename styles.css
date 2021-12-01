@@ -754,12 +754,38 @@ footer hr.footer-social-network {
     margin: 12px;
   }
 
+  .works-section {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    height: 1805px;
+  }
+
   .works-title-section {
+    grid-column: 1 / 4;
     flex-direction: row;
   }
 
   .works-line {
     width: 50%;
+  }
+
+  .principal-card {
+    grid-column: 1 / 4;
+    grid-row: 2/3;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+  }
+
+  .feat-img-principal-card {
+    width: 680px;
+    height: 481.033px;
+    background-size: cover;
+  }
+
+  .description-principal-card {
+    width: 448px;
+    height: 348px;
   }
 }
 
