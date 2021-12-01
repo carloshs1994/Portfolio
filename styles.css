@@ -164,7 +164,9 @@ ul.social-media {
 .works-title-section {
   height: 107px;
   width: 88%;
-  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2.works-title {
@@ -174,6 +176,14 @@ h2.works-title {
   font-weight: normal;
   line-height: 52px;
   text-align: center;
+  height: 52px;
+  width: 315px;
+}
+
+.works-line {
+  width: 100%;
+  height: 0;
+  border: 0.5px solid #000000;
 }
 
 .principal-card {
@@ -346,11 +356,17 @@ h4 {
   color: #fff;
 }
 
+.secondary-tag-holder {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 0.001px;
+}
+
 .secondary-tag {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 39px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
   color: #fff;
@@ -737,17 +753,33 @@ footer hr.footer-social-network {
   .icon {
     margin: 12px;
   }
+
+  .works-title-section {
+    flex-direction: row;
+  }
+
+  .works-line {
+    width: 50%;
+  }
 }
 
 @media (min-width:900px) and (max-width:1219px) {
   .head-section {
     background-size: contain;
   }
+
+  .works-line {
+    width: 60%;
+  }
 }
 
 @media (min-width:1220px) {
   .head-section {
     background-image: url(assets/Illustration-header-big.png);
+  }
+
+  .works-line {
+    width: 70%;
   }
 }
 
