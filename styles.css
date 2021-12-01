@@ -16,8 +16,13 @@
 body {
   margin: -1px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+/*-------header-------*/
 header {
   display: flex;
   background: #3c3a39;
@@ -26,7 +31,8 @@ header {
   height: 48px;
   align-items: center;
   font-size: 18px;
-  width: 376px;
+  width: 100%;
+  min-width: 300px;
 }
 
 .logo {
@@ -43,6 +49,13 @@ nav {
   justify-content: center;
 }
 
+/*-------Head section-------*/
+main {
+  display: grid;
+  gap: 120px;
+  width: 100%;
+}
+
 .head-section {
   display: flex;
   flex-direction: column;
@@ -52,26 +65,24 @@ nav {
   background-position: 100% 100%;
   color: #fff;
   height: 590px;
+  width: 100%;
+  min-width: 300px;
   justify-content: center;
-  width: 376px;
   align-items: center;
-}
-
-main {
-  display: grid;
-  gap: 120px;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
   height: 300px;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   order: 0;
-  width: 327px;
+  width: 88%;
+  min-width: 250px;;
 }
 
-.primary-text {
+h2.primary-text {
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
@@ -79,13 +90,16 @@ main {
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   color: #ff6b00;
-  width: 327px;
+  width: 100%;
+  min-width: 250px;
   margin: -0.01px;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
 }
 
-.supporting-text {
-  width: 327px;
+h4.supporting-text {
+  width: 100%;
+  min-width: 250px;
+  height: 30px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -95,14 +109,24 @@ main {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.Description-text {
-  width: 330px;
+p.Description-text {
+  width: 100%;
+  min-width: 250px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.social-media-container {
+  width: 80%;
+}
+
+ul.social-media {
+  list-style: none;
+  padding-left: 0px;
 }
 
 .social-media {
@@ -112,7 +136,8 @@ main {
   align-items: center;
   order: 1;
   padding: -0.01px;
-  width: 327px;
+  width: 100%;
+  min-width: 250px;
 }
 
 .icon {
