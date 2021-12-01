@@ -49,13 +49,14 @@ nav {
   justify-content: center;
 }
 
-/*-------Head section-------*/
+/*----------      Main      ----------*/
 main {
   display: grid;
   gap: 120px;
   width: 100%;
 }
 
+/*-------Head section-------*/
 .head-section {
   display: flex;
   flex-direction: column;
@@ -66,7 +67,7 @@ main {
   color: #fff;
   height: 590px;
   width: 100%;
-  min-width: 300px;
+  min-width: 375px;
   justify-content: center;
   align-items: center;
 }
@@ -79,7 +80,7 @@ main {
   align-items: center;
   order: 0;
   width: 88%;
-  min-width: 250px;;
+  min-width: 250px;
 }
 
 h2.primary-text {
@@ -148,44 +149,49 @@ ul.social-media {
   align-items: center;
 }
 
+/*-------Works Section-------*/
 .works-section {
   display: grid;
   gap: 24px;
   grid-template-rows: 211px 568px repeat(6, 386px);
-  justify-content: center;
-  width: 375px;
+  justify-items: center;
+  width: 100%;
+  min-width: 375px;
   height: 3335px;
 }
 
-.title-works-section {
+.works-title-section {
   height: 107px;
-  width: 327px;
+  width: 88%;
   border-bottom: 1px solid black;
 }
 
-h2 {
+h2.works-title {
   font-family: Crete Round, Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: normal;
   line-height: 52px;
-  text-align: left;
+  text-align: center;
 }
 
 .principal-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 327px;
 }
 
 .feat-img-principal-card {
-  width: 327px;
+  width: 88%;
+  min-width: 327px;
   height: 237px;
   background-image: url(assets/ImgPlaceholder.png);
 }
 
 .description-principal-card {
-  width: 327px;
+  width: 100%;
+  min-width: 250px;
   height: 307px;
   display: flex;
   flex-direction: column;
@@ -203,7 +209,8 @@ h3 {
 }
 
 .supporting-text-principal-card {
-  width: 327px;
+  width: 100%;
+  min-width: 250px;
   height: 147px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -216,7 +223,7 @@ h3 {
 
 .tag-holder {
   height: 40px;
-  width: 297px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
