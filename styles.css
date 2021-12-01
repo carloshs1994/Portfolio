@@ -739,6 +739,12 @@ footer hr.footer-social-network {
   }
 }
 
+@media (min-width:900px) and (max-width:1219px) {
+  .head-section {
+    background-size: contain;
+  }
+}
+
 @media (min-width:1220px) {
   .head-section {
     background-image: url(assets/Illustration-header-big.png);
