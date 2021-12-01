@@ -50,6 +50,10 @@ nav {
   justify-content: center;
 }
 
+.Personal-information {
+  display: none;
+}
+
 /*----------      Main      ----------*/
 main {
   display: grid;
@@ -658,6 +662,7 @@ footer hr.footer-social-network {
 @media (min-width:768px) {
   header {
     height: 72px;
+    justify-content: space-around;
   }
 
   .logo {
@@ -665,7 +670,25 @@ footer hr.footer-social-network {
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
-    margin-left: 140px;
+  }
+
+  nav {
+    width: 350px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+  
+  .Personal-information {
+    display: inline;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #fff;
+    text-decoration: none;
+    width: 160px;
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
   }
   
   .head-section {
@@ -674,25 +697,6 @@ footer hr.footer-social-network {
     height: 900px;
   }
 
-  .social-media-container {
-    width: 146px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-  }
-
-  ul.social-media {
-    flex-direction: column;
-    justify-content: center;
-    width: 140px;
-  }
-
-  .icon {
-    margin: 12px;
-  }
-  
   h2.primary-text {
     font-family: Crete Round, Arial, Helvetica, sans-serif;
     font-size: 72px;
@@ -713,6 +717,25 @@ footer hr.footer-social-network {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+  }
+
+  .social-media-container {
+    width: 146px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  ul.social-media {
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+  }
+
+  .icon {
+    margin: 12px;
   }
 }
 
