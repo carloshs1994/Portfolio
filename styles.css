@@ -25,6 +25,7 @@ body {
 /*-------header-------*/
 header {
   display: flex;
+  flex-direction: row;
   background: #3c3a39;
   color: #fff;
   justify-content: space-between;
@@ -32,7 +33,7 @@ header {
   align-items: center;
   font-size: 18px;
   width: 100%;
-  min-width: 300px;
+  min-width: 375px;
 }
 
 .logo {
@@ -81,6 +82,7 @@ main {
   order: 0;
   width: 88%;
   min-width: 250px;
+  max-width: 566px;
 }
 
 h2.primary-text {
@@ -93,6 +95,8 @@ h2.primary-text {
   color: #ff6b00;
   width: 100%;
   min-width: 250px;
+  max-width: 400px;
+  align-self: stretch;
   margin: -0.01px;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
 }
@@ -128,17 +132,10 @@ p.Description-text {
 ul.social-media {
   list-style: none;
   padding-left: 0px;
-}
-
-.social-media {
   display: flex;
-  justify-content: flex-start;
   height: 50px;
-  align-items: center;
-  order: 1;
   padding: -0.01px;
   width: 100%;
-  min-width: 250px;
 }
 
 .icon {
@@ -360,8 +357,9 @@ h4 {
   width: 327px;
 }
 
+/*--------About Section-------*/
 .about-section {
-  width: 375px;
+  width: 100%;
   height: 2150px;
   background: #1c1a19;
   display: flex;
@@ -370,7 +368,7 @@ h4 {
 }
 
 .about {
-  width: 375px;
+  width: 100%;
   height: 660px;
   background-image: url(assets/Frame.png);
   background-repeat: no-repeat;
@@ -655,3 +653,81 @@ footer hr.footer-social-network {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+/* horizontal tablets and average desktop*/
+@media (min-width:768px) {
+  header {
+    height: 72px;
+  }
+
+  .logo {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 140px;
+  }
+  
+  .head-section {
+    flex-direction: row-reverse;
+    justify-content: start;
+    height: 900px;
+  }
+
+  .social-media-container {
+    width: 146px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  ul.social-media {
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+  }
+
+  .icon {
+    margin: 12px;
+  }
+  
+  h2.primary-text {
+    font-family: Crete Round, Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  h4.supporting-text {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  p.Description-text {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+@media (min-width:1220px) {
+  .head-section {
+    background-image: url(assets/Illustration-header-big.png);
+  }
+}
+
+/*horizontal moviles*
+@media (min-width:480px) and (max-width: 767px) {
+  
+}
+
+/*average moviles*
+@media (max-width:480px) {
+  
+}*/
