@@ -1,4 +1,4 @@
-# Portafolio: Mobil Version
+# Portafolio
 This is a repo dedicated to share with you my experience
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
@@ -21,7 +21,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to Microverse
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio-setup-and-mobile-version-skeleton</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -13,21 +13,24 @@
 </head>
 <body>
   <header>
-    <a class="logo" href="">Carlos Herver</a>
+    <a class="logo" href="#">Carlos Herver</a>
     <nav class="button">
-      <img src="assets/Union.png" alt="Hamburger button">
+      <img class="hamburger-menu" src="assets/Union.png" alt="Hamburger button">
+      <a class="Personal-information Portafolio" href="#">Portafolio</a>
+      <a class="Personal-information About" href="#">About</a>
+      <a class="Personal-information Contact" href="#">Contact</a>
+      <a class="Personal-information Envelope" href="#"><img src="assets/Envelope.png" alt="An icon in the shape of an envelope"></a>
     </nav>
   </header>
   <main>
     <section class="head-section">
-      <section class="1 intro-text">
+      <section class="intro-text">
         <h2 class="primary-text">Hey There. I'm Carlos</h2>
         <h4 class="supporting-text">I'm a Software Developer</h4>
-        <p class="Description-text">I can help you build a product , feature or website Look through some of my work<br> and experience! If you like what you see<br> and have a project you need coded,<br> 
-            don’t hestiate to contact me.</p>
+        <p class="Description-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       </section>
-      <section>
-        <ul class="2 social-media">
+      <section class="social-media-container">
+        <ul class="social-media">
           <li class="icon github"><img src="assets/github.svg" alt="github.com icon"></li>
           <li class="icon linkedin"><img src="assets/Linkedin-icon.svg" alt="linkedin.com icon"></li>
           <li class="icon angel-list"><img src="assets/angel-list.svg" alt="angel icon"></li>
@@ -37,13 +40,14 @@
       </section>
     </section>
     <section class="works-section">
-        <div class="title-works-section">
-          <h2>My Recent Works</h2>
+        <div class="works-title-section">
+          <h2 class="works-title">My Recent Works</h2>
+          <hr class="works-line">
         </div>
         <section class="card principal-card">
           <div class="feat-img-principal-card"></div>
           <div class="description-principal-card">
-            <h3>Multi-Post Stories</h3>
+            <h3 class="description-title">Multi-Post Stories</h3>
             <p class="supporting-text-principal-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
             <ul class="tag-holder">
               <li class="tag"><p class="css">css</p></li>
@@ -54,11 +58,11 @@
             <button class="see-project main-button">See Project</button>
           </div>
         </section>
-        <section class="card second-card">
+        <section class="card-1 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -66,11 +70,11 @@
           </div>
           <button class="see-project secondary-button">See Project</button>
         </section>
-        <section class="card second-card">
+        <section class="card-2 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -78,11 +82,11 @@
           </div>
           <button class="see-project secondary-button">See Project</button>
         </section>
-        <section class="card second-card">
+        <section class="card-3 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -90,11 +94,11 @@
           </div>
           <button class="see-project secondary-button">See Project</button>
         </section>
-        <section class="card second-card">
+        <section class="card-4 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -102,11 +106,11 @@
           </div>
           <button class="see-project secondary-button">See Project</button>
         </section>
-        <section class="card second-card">
+        <section class="card-5 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -114,11 +118,11 @@
           </div>
           <button class="see-project secondary-button">See Project</button>
         </section>
-        <section class="card second-card">
+        <section class="card-6 second-card">
           <div class="mask-group">
             <h4>Profesional Art Printing Data</h4>
             <p class="supporting-text-secondary-card">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="tag-holder">
+            <ul class="tag-holder secondary-tag-holder">
               <li class="secondary-tag"><p class="html">html</p></li>
               <li class="secondary-tag"><p class="bootstrap">bootstrap</p></li>
               <li class="secondary-tag"><p class="rubi">Ruby</p></li>
@@ -167,23 +171,24 @@
     </section>
   </main>
   <footer>
-    <section class="footer-head">
-        <h3>I'm always <br> interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-    </section>
+    <section class="form-container">
+      <section class="footer-head">
+      <h3>I'm always <br class="h3-break"> interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+      </section>
 
-    <form class="footer-form" action="https://formspree.io/f/xayvwlqd" method="post">
-        <input type="text" id="name" name="user-name" placeholder="Full Name" required maxlength="30">
-        <input type="email" id="email" name="user-email" placeholder="Email Address" required>
-        <textarea name="message" id="msg" maxlength="500" placeholder="Enter Text Here" required></textarea>
-        <button id="form-button" type="submit">Get in Touch</button>
-    </form>
+      <form class="footer-form" action="https://formspree.io/f/xayvwlqd" method="post">
+          <input type="text" id="name" name="user-name" placeholder="Full Name" required maxlength="30">
+          <input type="email" id="email" name="user-email" placeholder="Email Address" required>
+          <textarea name="message" id="msg" maxlength="500" placeholder="Enter Text Here" required></textarea>
+          <button id="form-button" type="submit">Get in Touch</button>
+      </form>
+    </section>
 
     <hr class="footer-social-network">
 
     <ul class="footer-Links">
         <li><a href="#"><img src="assets/github-dark.png" alt="github" ></a></li>
-        <li><a href="#"><img src="assets/linkedin-dark.png"
-                    alt="linkedin"></a></li>
+        <li><a href="#"><img src="assets/linkedin-dark.png" alt="linkedin"></a></li>
         <li><a href="#"><img src="assets/hand-dark.png" alt="idk"></a></li>
         <li><a href="#"><img src="assets/twitter-dark.png" alt="twitter"></a></li>
         <li><a href="#"><img src="assets/m-dark.png" alt="M"></a></li>
