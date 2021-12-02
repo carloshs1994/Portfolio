@@ -807,7 +807,7 @@ footer hr.footer-social-network {
 
   .works-section {
     grid-template-columns: auto 370px auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto 550px auto auto;
     height: 1805px;
     gap: 0.01px;
   }
@@ -830,7 +830,8 @@ footer hr.footer-social-network {
     width: 100%;
     height: auto;
     max-width: 684px;
-    background-size: cover;
+    max-height: 481px;
+    background-size: contain;
   }
 
   .description-principal-card {
@@ -860,6 +861,38 @@ footer hr.footer-social-network {
 
   .secondary-button {
     display: none;
+  }
+
+  .card-1 {
+    background-image: url(assets/card-1.svg);
+  }
+
+  .card-1 .secondary-button {
+    display: block;
+    width: 100%;
+  }
+  .card-1 .mask-group {
+    display: none;
+  }
+
+  .card-2 {
+    background-image: url(assets/card-2.svg);
+  }
+
+  .card-3 {
+    background-image: url(assets/card-3.svg);
+  }
+
+  .card-4 {
+    background-image: url(assets/card-4.svg);
+  }
+
+  .card-5 {
+    background-image: url(assets/card-2.svg);
+  }
+
+  .card-6 {
+    background-image: url(assets/card-3.svg);
   }
 
   .about {
@@ -923,7 +956,7 @@ footer hr.footer-social-network {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1220px) {
   p.Description-text {
     width: 566px;
     align-self: center;
@@ -931,5 +964,11 @@ footer hr.footer-social-network {
 
   p.about-description {
     width: 566px;
+  }
+
+  .works-section{
+    width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
