@@ -874,6 +874,27 @@ footer hr.footer-social-network {
 
   .card-1 {
     background-image: url(assets/card-1.svg);
+    -webkit-animation: sk-rotateplane 1.2s 4 ease-in-out;
+    animation: sk-rotateplane 1.2s 4 ease-in-out;
+  }
+
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(150px) }
+    50% { -webkit-transform: perspective(150px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(150px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(150px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(150px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(150px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(150px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(150px) rotateX(-180deg) rotateY(-179.9deg);
+    }
   }
 
   .card-1 .secondary-button {
