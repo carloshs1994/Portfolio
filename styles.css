@@ -773,6 +773,7 @@ footer hr.footer-social-network {
 
   li.slk {
     text-align: left;
+    padding-inline-start: 12px;
   }
 
   li.skill-description {
