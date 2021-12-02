@@ -443,8 +443,8 @@ h4 {
   height: 1400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .white-vector {
@@ -454,84 +454,53 @@ h4 {
 }
 
 ul.skill-list-container {
+  padding: 0px;
   list-style: none;
-  width: 100%;
-  height: 1303px;
+  width: 223px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-evenly;
+}
+
+ul.skill-description-container {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
 }
 
 li.slk {
-  color: #fff;
   font-family: InaiMathi, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  padding-inline-start: 12px;
+  color: #fff;
+  text-align: center;
 }
 
-ul.skill-list-container li.slk:nth-child(1) {
-  list-style-image: url(assets/Rectangle55.png);
-  margin-left: 60px;
-  padding-bottom: 10px;
-}
-
-ul.skill-list-container li.slk:nth-child(2) {
-  list-style-image: url(assets/Square56.png);
-  margin-left: 50px;
-  padding-bottom: 10px;
-}
-
-ul.skill-list-container li.slk:nth-child(3) {
-  list-style-image: url(assets/Circle57.png);
-  margin-left: 82px;
-  padding-inline-start: 1px;
-  padding-bottom: 10px;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-}
-
-ul.skill-description-container {
-  padding: -0.001px;
-  padding-left: 0.001px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  list-style-type: none;
-}
-
-.skill-description {
-  list-style-type: none;
-  list-style-image: none;
+li.skill-description {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
   text-align: center;
-  color: #fff;
-  margin: 0.01px;
-  padding-bottom: 32px;
 }
 
-.size-language {
-  width: 120px;
+ul.skill-list-container li.slk:nth-child(1) {
+  list-style-image: url(assets/Rectangle55.png);
 }
 
-.size-frameworks {
-  width: 140px;
-  padding-left: 5px;
+ul.skill-list-container li.slk:nth-child(2) {
+  list-style-image: url(assets/Square56.png);
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
-.size-skills {
-  width: 90px;
-  padding-left: 5px;
-}
-
-.bigger-container-skills {
-  width: 100px;
-  text-align: center;
+ul.skill-list-container li.slk:nth-child(3) {
+  list-style-image: url(assets/Circle57.png);
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 /* Footer section */
