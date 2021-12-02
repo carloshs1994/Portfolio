@@ -871,6 +871,7 @@ footer hr.footer-social-network {
     display: block;
     width: 100%;
   }
+
   .card-1 .mask-group {
     display: none;
   }
@@ -966,7 +967,7 @@ footer hr.footer-social-network {
     width: 566px;
   }
 
-  .works-section{
+  .works-section {
     width: 1219px;
     margin-left: auto;
     margin-right: auto;
