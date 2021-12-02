@@ -759,10 +759,37 @@ footer hr.footer-social-network {
   .icon {
     margin: 12px;
   }
+
+  .about {
+    align-items: stretch;
+  }
+
+  .about-title{
+    width: 566px;
+    height: 76px;
+    padding-left: 124px;
+  }
+
+  .about-description {
+    width: 566px;
+    height: 148px;
+    padding-left: 124px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .about-button-container {
+    padding-left: 124px;
+  }
 }
 
-@media (min-width:900px) and (max-width:1219px) {
+@media (min-width:950px) and (max-width:1219px) {
   .head-section {
+    background-size: contain;
+  }
+
+  .about {
     background-size: contain;
   }
 }
@@ -829,6 +856,11 @@ footer hr.footer-social-network {
 
   .secondary-button {
     display: none;
+  }
+
+  .about {
+    background-image: url(assets/Frame-about-section.png);
+    background-position: 100% 50%;
   }
 }
 
