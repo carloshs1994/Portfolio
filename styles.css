@@ -381,10 +381,11 @@ h4 {
 /*--------About Section-------*/
 .about-section {
   width: 100%;
-  height: 2150px;
+  height: 2000px;
   background: #1c1a19;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -438,8 +439,8 @@ h4 {
 }
 
 .skill {
-  width: 327px;
-  height: 1241px;
+  width: 90%;
+  height: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -447,17 +448,15 @@ h4 {
 }
 
 .white-vector {
-  width: 327px;
+  width: 100%;
   height: 50px;
   border-top: 1px solid #fff;
 }
 
 ul.skill-list-container {
-  padding: 16px;
-  padding-left: 25px;
-  list-style-type: none;
-  width: 290px;
-  height: 1000px;
+  list-style: none;
+  width: 100%;
+  height: 1303px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
