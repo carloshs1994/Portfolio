@@ -322,13 +322,13 @@ ul.tag-holder {
   flex-direction: column;
   justify-content: flex-end;
   background-image: url(assets/Img-secundary-card.png);
-transition: border-radius 0.5s ease-out;
-transition: rotate 0.5s ease-out;
+  transition: border-radius 0.5s ease-out;
+  transition: rotate 0.5s ease-out;
 }
 
 .second-card:hover {
   border-radius: 50px;
-rotate:180deg;
+  rotate: 180deg;
 }
 
 .mask-group {
