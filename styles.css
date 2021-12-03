@@ -33,7 +33,6 @@ header {
   align-items: center;
   font-size: 18px;
   width: 100%;
-  min-width: 375px;
 }
 
 .logo {
@@ -281,6 +280,7 @@ ul.tag-holder {
 .main-button {
   height: 48px;
   width: 124px;
+  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
 }
 
 .see-project {
@@ -297,6 +297,7 @@ ul.tag-holder {
 }
 
 .see-project:hover {
+  width: 50%;
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
@@ -321,6 +322,13 @@ ul.tag-holder {
   flex-direction: column;
   justify-content: flex-end;
   background-image: url(assets/Img-secundary-card.png);
+  transition: border-radius 0.5s ease-out;
+  transition: rotate 0.5s ease-out;
+}
+
+.second-card:hover {
+  border-radius: 50px;
+  rotate: 180deg;
 }
 
 .mask-group {
