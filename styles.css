@@ -280,7 +280,10 @@ ul.tag-holder {
 .main-button {
   height: 48px;
   width: 124px;
-  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+
+.main-button:hover {
+  width: 50%;
 }
 
 .see-project {
@@ -294,10 +297,10 @@ ul.tag-holder {
   letter-spacing: 0.03em;
   text-align: center;
   border: none;
+  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
 }
 
 .see-project:hover {
-  width: 50%;
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
@@ -444,6 +447,7 @@ h4 {
 .about-button {
   width: 161px;
   height: 48px;
+  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
 }
 
 .skill {
