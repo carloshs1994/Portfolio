@@ -727,15 +727,31 @@ footer hr.footer-social-network {
     width: 350px;
   }
 
+  #closeButton {
+    display: none;
+  }
+
   nav ul {
     position: static;
     flex-direction: row;
-    width: auto;
+    width: 100%;
     height: auto;
+    opacity: 1;
+    gap: 0;
   }
 
   .hamburger-menu {
     display: none;
+  }
+
+  nav ul li {
+    width: 80%;
+    border-bottom: none;
+    height: auto;
+  }
+
+  li.envelope {
+    display: block;
   }
 
   .Personal-information {
@@ -747,6 +763,10 @@ footer hr.footer-social-network {
     width: 160px;
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
   }
 
   main {
