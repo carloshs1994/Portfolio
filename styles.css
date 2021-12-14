@@ -13,7 +13,7 @@
   src: url(https://fonts.googleapis.com/css?family=Poppins);
 }
 
-:root{--primaryColor: #3c3a39;}
+:root { --primaryColor: #3c3a39; }
 
 body {
   margin: -1px;
@@ -74,16 +74,17 @@ nav ul {
   opacity: 1;
 }
 
-nav ul span {
+nav ul li.closeButtonContainer {
   align-self: flex-end;
   margin-right: 38px;
   margin-top: 38px;
-  color: #FFF5E1;
+  color: #fff5e1;
+  width: 0.001px;
 }
 
 nav ul li {
   width: 80%;
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6f6b;
 }
 
 .Personal-information {
@@ -94,7 +95,7 @@ nav ul li {
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
-  color: #FFF5E1;
+  color: #fff5e1;
   text-decoration: none;
 }
 
