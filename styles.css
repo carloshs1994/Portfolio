@@ -709,6 +709,96 @@ footer hr.footer-social-network {
   padding-left: 10px;
 }
 
+.modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(151, 148, 147, .2);
+  backdrop-filter: blur(2px);
+}
+
+.modal {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.modal-header {
+  width: 90%;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h1 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.top span {
+  font-size: 30px;
+}
+
+.modal ul {
+  display: flex;
+  width: 90%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px;
+}
+
+.modal ul li {
+  padding: 10px 12px;
+  border: 1px solid #979493;
+}
+
+.body-wrap {
+  width: 90%;
+}
+
+.body-wrap .modal-body {
+  width: 100%;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.go-to-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.go-to-wrapper button {
+  padding: 12px;
+  display: flex;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  }
+
 /* horizontal tablets and average desktop */
 @media (min-width: 768px) {
   header {
@@ -1042,6 +1132,52 @@ footer hr.footer-social-network {
 
   .footer-end {
     display: none;
+  }
+
+  .modal {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .modal .top {
+    height: 50px;
+  }
+
+  .body-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 25px
+  }
+
+  .image-wrap {
+    width: 100%;
+  }
+
+  .image-wrap img {
+    width: 100%;
+  }
+
+  .modal-body {
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .modal-body p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .go-to-wrapper {
+    justify-content: flex-start;
+    gap: 7px;
   }
 }
 
