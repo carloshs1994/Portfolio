@@ -24,13 +24,18 @@
   <header>
     <a class="logo" href="#">Carlos Herver</a>
     <nav class="button">
-      <img class="hamburger-menu" src="assets/Union.png" alt="Hamburger button">
-      <a class="Personal-information" href="#works-section-id">Portafolio</a>
-      <a class="Personal-information" href="#about-section-id">About</a>
-      <a class="Personal-information" href="#contact-section-id">Contact</a>
-      <a class="Personal-information" href="#">
-        <img src="assets/Envelope.png" alt="An icon in the shape of an envelope">
-      </a>
+      <img id="menu-button" class="hamburger-menu" src="assets/Union.png" alt="Hamburger button">
+      <ul id="menu">
+        <li class="closeButtonContainer"><span id="closeButton">X</span></li>
+        <li><a class="Personal-information" href="#works-section-id">Portafolio</a></li>
+        <li><a class="Personal-information" href="#about-section-id">About</a></li>
+        <li><a class="Personal-information" href="#contact-section-id">Contact</a></li>
+        <li class="envelope">
+          <a class="Personal-information" href="#">
+            <img src="assets/Envelope.png" alt="An icon in the shape of an envelope">
+          </a>
+        </li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -216,5 +221,6 @@
     </ul>
     <hr class="footer-end">
 </footer>
+<script src="index.js"></script>
 </body>
 </html>

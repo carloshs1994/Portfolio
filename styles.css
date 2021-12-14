@@ -13,6 +13,8 @@
   src: url(https://fonts.googleapis.com/css?family=Poppins);
 }
 
+:root { --primaryColor: #3c3a39; }
+
 body {
   margin: -1px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -26,7 +28,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  background: #3c3a39;
+  background: var(--primaryColor);
   color: #fff;
   justify-content: space-between;
   height: 48px;
@@ -49,7 +51,54 @@ nav {
   justify-content: center;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primaryColor);
+  opacity: 0;
+  transition: opacity 0.9s;
+}
+
+.visible {
+  left: 0;
+  opacity: 1;
+}
+
+nav ul li.closeButtonContainer {
+  align-self: flex-end;
+  margin-right: 38px;
+  margin-top: 38px;
+  color: #fff5e1;
+  width: 0.001px;
+}
+
+nav ul li {
+  width: 80%;
+  border-bottom: 1px solid #6f6c6f6b;
+}
+
 .Personal-information {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+li.envelope {
   display: none;
 }
 
@@ -678,8 +727,31 @@ footer hr.footer-social-network {
     width: 350px;
   }
 
+  #closeButton {
+    display: none;
+  }
+
+  nav ul {
+    position: static;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    gap: 0;
+  }
+
   .hamburger-menu {
     display: none;
+  }
+
+  nav ul li {
+    width: 80%;
+    border-bottom: none;
+    height: auto;
+  }
+
+  li.envelope {
+    display: block;
   }
 
   .Personal-information {
@@ -691,6 +763,10 @@ footer hr.footer-social-network {
     width: 160px;
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
   }
 
   main {
