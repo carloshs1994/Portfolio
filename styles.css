@@ -773,21 +773,23 @@ footer hr.footer-social-network {
 
 .body-wrap {
   width: 90%;
+  height: 70%;
 }
 
 .image-wrap {
   width: 100%;
-  height: auto;
-  max-width: 659px;
+  height: 60%;
+  max-height: 350px;
 }
 
 .image-wrap img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .body-wrap .modal-body {
   width: 100%;
+  height: 30%;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -1165,21 +1167,26 @@ footer hr.footer-social-network {
     display: flex;
     flex-direction: row;
     width: 90%;
+    height: 60%;
     gap: 25px;
   }
 
   .image-wrap {
-    width: 100%;
-    height: auto;
+    width: 52%;
+    height: 100%;
+    max-height: 350px;
   }
 
   .image-wrap img {
     width: 100%;
-    max-height: 448px;
+    height: 100%;
+    max-height: 350px;
   }
 
   .modal-body {
     max-width: 424px;
+    max-height: 350px;
+    height: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
