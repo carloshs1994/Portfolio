@@ -123,7 +123,12 @@ window.onload = function () {
   };
 
   const openModal = (e) => {
-    const currentTitle = e.target.parentNode.children[0].children[0].innerHTML;
+    let currentTitle;
+    if (e.target.classList[1] === 'main-button'){
+      currentTitle = e.target.parentNode.children[0].innerHTML;
+    } else {
+      currentTitle = e.target.parentNode.children[0].children[0].innerHTML;
+    }
     const project = arrOfProjects.filter((pro) => pro.title === currentTitle)[0];
     const modalHeader = document.createElement('div');
     const modalTop = document.createElement('div');
@@ -172,34 +177,3 @@ window.onload = function () {
     button.addEventListener('click', openModal);
   });
 };
-
-/*
-<article class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <div class="top">
-        <h1 class="display-2">Multi Post Stories</h1>
-        <span id="close_modal" class="close-modal">x</span>
-      </div>
-      <ul class="modal-languages">
-        <li class="modal-language">HTML</li>
-        <li class="modal-language">bootstrap</li>
-        <li class="modal-language">Javascript</li>
-      </ul>
-    </div>
-
-    <div class="body-wrap">
-      <div class="image-wrap">
-        <img src="" alt="project-3" class="modal-image">
-      </div>
-      <div class="modal-body">
-        <p class="par">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
-        <div class="go-to-wrapper">
-          <button class="see-project">See live<i class="fas fa-external-link-alt"></i></button>
-          <button class="see-project">See source<i class="fab fa-github"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-*/
