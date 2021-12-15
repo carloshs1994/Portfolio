@@ -817,6 +817,27 @@ footer hr.footer-social-network {
   gap: 16px;
 }
 
+.error {
+  position: fixed;
+  bottom: 20px;
+  left: calc(50% - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #1c1a19;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.close-error {
+  align-self: flex-end;
+  color: #fff;
+}
+
 /* horizontal tablets and average desktop */
 @media (min-width: 768px) {
   header {
