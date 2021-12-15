@@ -817,10 +817,10 @@ footer hr.footer-social-network {
   gap: 16px;
 }
 
-.error{
+.error {
   position: fixed;
   bottom: 20px;
-  left: calc( 50%-150px);
+  left: calc(50% - 150px);
   display: flex;
   flex-direction: column;
   justify-content: center;
