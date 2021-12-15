@@ -716,10 +716,9 @@ footer hr.footer-social-network {
   top: 0;
   left: 0;
   overflow: auto;
-  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(151, 148, 147, .2);
+  background-color: rgba(151, 148, 147, 0.2);
   backdrop-filter: blur(2px);
   display: none;
 }
@@ -746,7 +745,7 @@ footer hr.footer-social-network {
 }
 
 .top h1 {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
@@ -762,8 +761,8 @@ footer hr.footer-social-network {
   display: flex;
   width: 90%;
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   gap: 10px;
 }
 
@@ -806,7 +805,7 @@ footer hr.footer-social-network {
   text-decoration: none;
   padding: 12px;
   display: flex;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -814,7 +813,7 @@ footer hr.footer-social-network {
   letter-spacing: 0.03em;
   justify-content: center;
   gap: 16px;
-  }
+}
 
 /* horizontal tablets and average desktop */
 @media (min-width: 768px) {
@@ -1166,7 +1165,7 @@ footer hr.footer-social-network {
     display: flex;
     flex-direction: row;
     width: 90%;
-    gap: 25px
+    gap: 25px;
   }
 
   .image-wrap {
@@ -1187,7 +1186,7 @@ footer hr.footer-social-network {
   }
 
   .modal-body p {
-    font-family: Inter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

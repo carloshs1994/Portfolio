@@ -73,10 +73,9 @@ window.onload = function () {
 
   const projects = arrOfProjects.map((element, index) => {
     const card = document.createElement('article');
-    if(index===0){
-      card.className = `card principal-card`;
-      card.innerHTML = 
-        `
+    if (index === 0) {
+      card.className = 'card principal-card';
+      card.innerHTML = `
         <div class="feat-img-principal-card"></div>
         <div class="description-principal-card">
           <h3 class="description-title">${element.title}</h3>
@@ -90,10 +89,9 @@ window.onload = function () {
           <button class="see-project main-button project-link" type="button">See Project</button>
         </div>
       `;
-    } else{
+    } else {
       card.className = `card-${index} second-card`;
-      card.innerHTML = 
-        `
+      card.innerHTML = `
         <div class="mask-group">
           <h4>${element.title}</h4>
           <p class="supporting-text-secondary-card">${element.description}</p>
@@ -112,7 +110,7 @@ window.onload = function () {
   for (let i = 0; i < projects.length; i += 1) {
     projectsSection.appendChild(projects[i]);
   }
-  //------------------------------------------------Modal
+  // ------------------------------------------------Modal
 
   const modalContainer = document.querySelector('.modal-container');
   const modal = document.getElementById('modal');
@@ -124,7 +122,7 @@ window.onload = function () {
 
   const openModal = (e) => {
     let currentTitle;
-    if (e.target.classList[1] === 'main-button'){
+    if (e.target.classList[1] === 'main-button') {
       currentTitle = e.target.parentNode.children[0].innerHTML;
     } else {
       currentTitle = e.target.parentNode.children[0].children[0].innerHTML;
@@ -155,8 +153,7 @@ window.onload = function () {
     imageWrapper.innerHTML = `<img src="${project.image}" alt="${project.title}" class="modal-image">`;
     const modalBody = document.createElement('div');
     modalBody.className = 'modal-body';
-    modalBody.innerHTML = 
-      `
+    modalBody.innerHTML = `
       <p class="par">${project.description}</p>
       <div class="go-to-wrapper">
           <a href="${project.linkLiveVersion}" class="see-project">See live<i class="fas fa-external-link-alt"></i></a>
