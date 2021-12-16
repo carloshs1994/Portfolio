@@ -198,6 +198,5 @@ window.onload = function () {
       e.preventDefault();
       e.target[3].disabled = true;
     }
-    e.preventDefault();
   });
 };
