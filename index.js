@@ -14,12 +14,12 @@ window.onload = function () {
   // ----------------------------------------------Array of projects
   const arrOfProjects = [
     {
-      image: 'assets/SnapshootPortfolio.svg',
-      title: 'Multi-Post Stories',
-      languages: ['css', 'html', 'bootstrap', 'Ruby'],
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      linkLiveVersion: '#',
-      linkToSource: '#',
+      image: 'assets/awesome-books-1.png',
+      title: 'Awesome Books',
+      languages: ['CSS3', 'HTML', 'bootstrap', 'Ruby'],
+      description: 'We created an app to store, display and remove books from localStorage and UI. This project has been built with the help of modern CSS3 and ES6. Check the live demo to try.',
+      linkLiveVersion: 'https://carloshs1994.github.io/AwesomeBooks/',
+      linkToSource: 'https://github.com/carloshs1994/AwesomeBooks',
     },
     {
       image: 'assets/SnapshootPortfolio.svg',
@@ -198,5 +198,6 @@ window.onload = function () {
       e.preventDefault();
       e.target[3].disabled = true;
     }
+    e.preventDefault();
   });
 };
