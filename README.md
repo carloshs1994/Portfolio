@@ -16,6 +16,7 @@ This is a repo dedicated to share my experience.
 👤 **Carlos Herver Solano**
 
 - GitHub: [@carloshs1994](https://github.com/carloshs1994)
+- Twitter: [@hscarlos_](https://twitter.com/hscarlos_)
 
 ## Show your support
 
