@@ -1,5 +1,5 @@
 # Portafolio
-This is a repo dedicated to share my experience.
+This is my first portfolio, dedicated to share my experience.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
