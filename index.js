@@ -22,12 +22,12 @@ window.onload = function () {
       linkToSource: 'https://github.com/carloshs1994/AwesomeBooks',
     },
     {
-      image: 'assets/SnapshootPortfolio.svg',
-      title: 'Profesional Art Printing Data-1',
-      languages: ['html', 'bootstrap', 'Ruby'],
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      linkLiveVersion: '#',
-      linkToSource: '#',
+      image: 'assets/market-overview.png',
+      title: 'Market Overview',
+      languages: ['React', 'Redux', 'SASS'],
+      description: 'Market Overview is a website designed to showcase the US stock market. You could find details about the stock of choice and improve your strategies. Built using React, Redux, SASS, and tested using React testing library.',
+      linkLiveVersion: 'https://carloshs1994.github.io/market-overview/',
+      linkToSource: 'https://github.com/carloshs1994/market-overview',
     },
     {
       image: 'assets/SnapshootPortfolio.svg',
@@ -137,10 +137,8 @@ window.onload = function () {
     modalTop.innerHTML = `<h1 class="display-2">${project.title}</h1>
       <span id="close_modal" class="close-modal">x</span>`;
     modalLanguages.className = 'modal-languages';
-    console.log(project.languages);
     for (let i = 0; i < project.languages.length; i += 1) {
       const listElement = document.createElement('li');
-      console.log(listElement);
       listElement.className = 'modal-language';
       listElement.innerHTML = project.languages[i];
       modalLanguages.appendChild(listElement);
